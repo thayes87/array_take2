@@ -17,4 +17,9 @@ bike_complete = [true, false, false, true]
 
 #allows addition of an element as [0]
   puts seatpost_size.unshift(24.8)
-  
+
+#index positions are the order in which the strings can be found in an array; the first index is always [0]. For example, the index position [0] for each of the variables
+#above is "revel", 15, 27.2, true, repectively. to call these index positions we use the square brackets as shown below.
+
+#this will call the bike_size 17 since the bike_size 15 is indeex [0].
+bike_size[1]
